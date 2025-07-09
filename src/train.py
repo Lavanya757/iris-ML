@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 
 # Load dataset
-df = pd.read_csv('Iris.csv', header=None)
+df = pd.read_csv('iris.csv', header=None)
 df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # Features and labels
